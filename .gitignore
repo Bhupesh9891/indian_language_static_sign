@@ -1,18 +1,12 @@
-# 1. Ignore the massive virtual environment (gigabytes of local files!)
+# env
 .venv/
-env/
 venv/
 
-# 2. Ignore Python cache & temporary files
+# something 
 __pycache__/
 *.pyc
-*.pyo
-temp.jpg
-current_frame.jpg
 
-# 3. Ignore old, heavy unused test models
-*.keras
 
-# 4. Ignore editor settings
+
+# vscode settings
 .vscode/
-.idea/
